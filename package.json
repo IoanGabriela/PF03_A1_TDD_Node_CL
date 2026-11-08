@@ -1,0 +1,28 @@
+{
+  "name": "pf03_a1_tdd_node_cl",
+  "version": "1.0.0",
+  "description": "Repositorio creado para la PF03 de la asignatura Proyecto Intermodular II de DAW",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IoanGabriela/PF03_A1_TDD_Node_CL.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/IoanGabriela/PF03_A1_TDD_Node_CL/issues"
+  },
+  "homepage": "https://github.com/IoanGabriela/PF03_A1_TDD_Node_CL#readme",
+  "devDependencies": {
+    "vitest": "^5.1.0"
+  },
+  "dependencies": {
+    "chalk": "^6.0.1"
+  }
+}
