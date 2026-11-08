@@ -3,15 +3,19 @@ function fibonacci(n) {
         throw new RangeError('El número no puede ser negativo')
     }
 
-    if (n === 0) {
-        return 0
+    if (n === 0) return 0;
+    if (n === 1) return 1;
+
+    let anterior = 0;
+    let actual = 1;
+
+    for (let i = 2; i <= n; i++) {
+        const siguiente = anterior + actual;
+        anterior = actual;
+        actual = siguiente;
     }
 
-    if (n === 1) {
-        return 1
-    }
-
-    return fibonacci(n - 1) + fibonacci(n - 2)
+    return actual;
 }
 
 export { fibonacci }
