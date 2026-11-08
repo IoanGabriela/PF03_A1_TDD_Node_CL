@@ -24,5 +24,8 @@
   },
   "dependencies": {
     "chalk": "^6.0.1"
+  },
+  "directories": {
+    "test": "test"
   }
 }
