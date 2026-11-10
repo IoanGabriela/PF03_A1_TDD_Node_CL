@@ -1,13 +1,5 @@
 function validarPin(pin) {
-    if (pin === null) {
-        return false;
-    }
-
-    if (pin === undefined) {
-        return false;
-    }
-
-    if (pin === '') {
+    if (pin === null || pin === undefined || pin === '') {
         return false;
     }
 
